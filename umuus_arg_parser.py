@@ -14,6 +14,7 @@ Example
 """
 import sys
 import re
+import json
 import umuus_dict_util
 __version__ = '0.1'
 __url__ = 'https://github.com/junmakii/{0}'.format(__name__)
@@ -42,7 +43,7 @@ def parse(a):
 
 def main(argv=[]):
     a = (argv or sys.argv)[1:]
-    print(option)
+    print(json.dumps(option))
     return 0
 
 
