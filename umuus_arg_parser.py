@@ -9,7 +9,7 @@ Example
     >>> import umuus_arg_parser
 
     >>> umuus_arg_parser.parse(('-a.b', '1', '-a.c', '1'))
-    {'a': {'c': '1', 'b': '1'}}
+    {'a': {'c': 1, 'b': 1}}
 
 """
 import sys
