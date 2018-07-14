@@ -14,12 +14,12 @@ setup(
  '-------\n'
  '\n'
  '    $ python umuus_arg_parser.py -a.b.c 1 -a.b.d 2\n'
- "    {'a': {'b': {'d': '2', 'c': '1'}}}\n"
+ '    {"a": {"b": {"d": 2, "c": 1}}}\n'
  '\n'
  '    >>> import umuus_arg_parser\n'
  '\n'
  "    >>> umuus_arg_parser.parse(('-a.b', '1', '-a.c', '1'))\n"
- "    {'a': {'c': '1', 'b': '1'}}\n"
+ "    {'a': {'c': 1, 'b': 1}}\n"
  '\n'),
     packages=setuptools.find_packages('.') + [
         os.path.join(root, dir)

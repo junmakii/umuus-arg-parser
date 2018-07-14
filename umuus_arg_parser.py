@@ -4,7 +4,7 @@ Example
 -------
 
     $ python umuus_arg_parser.py -a.b.c 1 -a.b.d 2
-    {'a': {'b': {'d': '2', 'c': '1'}}}
+    {"a": {"b": {"d": 2, "c": 1}}}
 
     >>> import umuus_arg_parser
 
