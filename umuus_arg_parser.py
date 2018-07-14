@@ -43,6 +43,7 @@ def parse(a):
 
 def main(argv=[]):
     a = (argv or sys.argv)[1:]
+    option = parse(a)
     print(json.dumps(option))
     return 0
 
